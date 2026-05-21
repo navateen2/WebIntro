@@ -1,0 +1,83 @@
+.navbar{
+    background-color: white;
+    position: sticky;
+    height: 77px;
+    width: 100%;
+    
+}
+
+body{
+    background-color:white ;
+}
+
+.sidebutton{
+    
+    background-color: #1EB4F0;
+    height: 56px;
+    border-top-left-radius: 32px;
+    border-bottom-left-radius: 32px;
+    border-width: 0px;
+    width: 100%;
+    color:white;
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+    padding-right: 0px;
+    gap: 4px;
+}
+
+
+.main-page{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100%;
+}
+
+
+
+
+.sidebar{
+    
+    background-color: white;
+    height: 100%;
+    width: 20%;
+    
+    border-width: 10px;
+    border-color: black;
+}   
+
+.main-space{
+    background-color: #F3F6FA;
+    
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.top-label,.form-area{
+    border-radius: 8px;
+    background-color: white;
+    padding-left: 24px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin: 20px;
+    
+}
+
+
+.row{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.pair{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+input{
+    padding: 5px;
+}
