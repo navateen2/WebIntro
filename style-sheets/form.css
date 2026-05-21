@@ -77,7 +77,36 @@ body{
     display: flex;
     flex-direction: column;
     padding: 10px;
+    
 }
 input{
     padding: 5px;
+    width: 460px;
+    height:44px;
+    border-radius: 4px;
+    border-width: 1px;
+    background-color: #FAFAFA;
+    border-color: #C6CDD9;
+}
+
+.button-row{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    width: 50%;
+}
+
+.create-button{
+    border-radius: 8px;
+    height: 50px;
+    background-color: #03AEEE;
+    color:white;
+    width: 30%;
+}
+
+.cancel-button{
+    border-color: #63667A;
+    width: 30%;
+    border-radius: 8px;
+    height: 50px;
 }
