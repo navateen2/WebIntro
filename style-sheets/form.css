@@ -121,9 +121,8 @@ input{
   width: 460px;
   height:44px;
   border-radius: 4px;
-  border-width: 1px;
   background-color: #FAFAFA;
-  border-color: #000;
+  border: 1px solid #000;
 }
 
 .def-button{
