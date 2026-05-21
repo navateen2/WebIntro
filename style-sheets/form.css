@@ -66,6 +66,13 @@ body{
     
 }
 
+.top-label{
+    height: 84px;
+    font-weight: 700;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
 
 .row{
     display: flex;
@@ -87,6 +94,8 @@ input{
     border-width: 1px;
     background-color: #FAFAFA;
     border-color: #C6CDD9;
+    border-style: solid;
+    
 }
 
 .button-row{
@@ -123,7 +132,8 @@ input{
   height:44px;
   border-radius: 4px;
   background-color: #FAFAFA;
-  border: 1px solid #000;
+  
+  border: 1px solid #C6CDD9;
 }
 
 .def-button{
